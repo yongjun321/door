@@ -1,0 +1,134 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	margin:0;
+	padding:0;
+}
+ul,li{margin:0;padding:0;list-style:none;}
+.header,.sub_header{
+	width:100%;
+	height:90px;
+	background:#c61f1f;
+}
+.header-input,.sub_header_input{
+	width:930px;
+	height:35px;
+	padding:27px 0;
+	margin:0 auto;
+}
+.header-input ul li,.sub_header_input ul li{
+	width:180px;
+	height:35px;
+	float:left;
+}
+.header-input ul li select{
+	width:150px;
+	height:35px;
+}
+.header-input #sure{
+	width:200px;
+	height:35px;
+	background:#ebf222;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+.sub_header{
+	height:60px;
+	background:#eaeaea;
+}
+.sub_header_input{
+   height:30px;
+   padding:15px 0;
+}
+.sub_header_input ul li{
+	height:30px;
+	font-size:14px;
+	line-height:30px;
+}
+.sub_header_input ul li input {
+	width:100px;
+	height:28px;
+	border:1px solid #aaaaaa;
+	box-shadow:inset 2px 2px 3px #e0e0e0;
+	border-radius:3px;
+}
+.sub_header_input #jisuan{
+	width:180px;
+	height:30px;
+	background:#ffffff;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	border:2px solid #595959;
+	margin-left:20px;
+}
+.container{
+	width:930px;
+	margin:50px auto;
+	height: auto;
+	
+}
+.container_header{
+	width:930px;
+	height:40px;
+	float:left;
+}
+.container_header ul {
+	width:100%;
+}
+.container_header ul li{
+	width:250px;
+	float:left;
+	font-size:16px;
+	line-height:40px;
+}
+.container_header ul li img{
+	width:40px;
+	height:40px;
+	float:left;
+	display:block;
+}
+.container_header ul li span{
+	width:200px;
+	line-height:40px;
+	padding-left:10px;
+    color:#000000;
+}
+.container_header ul li:nth-child(3){
+	float:right;
+	width:100px;
+}
+.container_text{
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+.container_text h3{
+	width:100%;
+	height:40px;
+	font-weight:normal;
+}
+.container_text h3 img{
+	width:40px;
+	height:40px;
+	float:left;
+	display:block;	
+}
+.container_text h3 span{
+	width:200px;
+	line-height:40px;
+	padding-left:10px;
+    color:#000000;
+	font-size:16px;
+}
+.container_textmain{
+	width:100%;
+	height:auto;
+	font-size:14px;
+}
+.container_textmain p{
+	text-indent:50px;
+	line-height:50px;
+}
